@@ -1,0 +1,9 @@
+#!/bin/sh
+while :; do
+sleep 1
+	top -b -n 1 | grep "greatwall" | if grep -s "start";then
+		echo 
+	else
+		/usr/greatwall/bin/greatwallapp start
+	fi
+done
