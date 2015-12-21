@@ -1,0 +1,13 @@
+config greatwall
+	option switch				'1'
+	option interface			'br-lan'
+	option authserver			'192.168.1.1'
+	option authserverport		'80'
+	option authpath				'/cgi-bin/greatwall/'
+	option aging				'remote'
+	option pingpath				'/cgi-bin/ping/'
+	option pingtime				'60'
+	list   acceptdomain			''
+	list   acceptmac			''
+	option whitelocal			'2'
+	option whitelen				'50'
