@@ -41,7 +41,7 @@ define Package/greatwallpkg/install
 	$(INSTALL_BIN) ./files/greatwallapp $(1)/usr/greatwall/bin/
 	$(INSTALL_BIN) ./files/greatwallcmd $(1)/usr/greatwall/bin/
 	$(INSTALL_BIN) ./files/greatwalldog $(1)/usr/greatwall/bin/
-	$(INSTALL_BIN) ./files/md5 $(1)/usr/greatwall/bin/
+	$(INSTALL_BIN) ./files/greatwallmd5 $(1)/usr/greatwall/bin/
 	$(INSTALL_BIN) ./files/etc/init.d/* $(1)/etc/init.d/
 	$(INSTALL_CONF) ./files/etc/config/* $(1)/etc/config/
 	#insert kmod

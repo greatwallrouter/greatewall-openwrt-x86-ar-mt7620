@@ -4,7 +4,7 @@ START=99
 STOP=90
 start() {
 	/usr/greatwall/bin/greatwallapp start
-	/usr/greatwall/bin/dog > /dev/null&
+	/usr/greatwall/bin/greatwalldog > /dev/null&
 } 
 
 stop() {
